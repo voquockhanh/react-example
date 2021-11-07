@@ -1,18 +1,11 @@
-class LikeButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { liked: false };
+const LikeButton = () => {
+  const [isLike, setIsLike] = React.useState(false)
+  if (isLike) {
+    return "You liked this.";
   }
-
-  render() {
-    if (this.state.liked) {
-      return "You liked this.";
-    }
-
-    return (
-      <button onClick={() => this.setState({ liked: true })}>Like x</button>
-    );
-  }
+  return (
+    <button onClick={() => setIsLike(true)}>Like x</button>
+  );
 }
 
 const domContainer = document.querySelector("#react-app");
