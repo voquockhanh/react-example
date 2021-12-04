@@ -32,7 +32,7 @@ function bindDynamicEvents(todoEle) {
 
 function updateTodoItem(e) {
   const todoItemEle = this.parentNode;
-  if (e.currentTarget.checked === true) {
+  if (e.target.checked === true) {
     todoItemEle.classList.add("done");
   } else {
     todoItemEle.classList.remove("done");
