@@ -51,4 +51,4 @@ const TodoApp = () => {
 };
 
 const domContainer = document.querySelector("#todo-app");
-ReactDOM.render(React.createElement(TodoApp), domContainer);
+ReactDOM.render(<TodoApp />, domContainer);

@@ -80,4 +80,4 @@ var TodoApp = function TodoApp() {
 };
 
 var domContainer = document.querySelector("#todo-app");
-ReactDOM.render(React.createElement(TodoApp), domContainer);
+ReactDOM.render(React.createElement(TodoApp, null), domContainer);
