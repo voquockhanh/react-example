@@ -1,14 +1,11 @@
 .container {
-  color: #333;
   font-family: Lato, sans-serif;
   display: block;
   width: 400px;
   margin: 100px auto 0;
 }
 
-/* Heading */
 h3 {
-  color: #333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
